@@ -1,0 +1,569 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.li-colore{
+    font-family: 'PP Acma';
+    background-color: #fffdf7;
+}
+
+.none{
+    display: none;
+}
+
+.wrapper{ 
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color: #fffdf7;
+}
+.wrappern{
+    display:none ;
+}
+.wrappern.newWrapper{
+    display: flex;
+}
+
+.simone-img{
+    max-width: 680px;
+}
+.simoneN{
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'PP Acma';
+    align-items: center;
+    color:#a9977d;
+    font-size: 115px;
+    transition: all 0.5s linear;
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+
+}
+
+.full{
+    margin-bottom:700px;
+    position: relative;
+    background-color: #fffdf7;
+}
+.navigation{
+    background-color: #fffdf7;
+    padding: 15px;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    z-index: 2;
+}
+.main-div{
+
+    object-fit: cover;
+    position: relative;
+    background-color: #000;
+    opacity: .99;
+}
+.main-image{
+
+   object-fit: cover;
+    position: relative;
+    background-color: #000;
+    opacity: .3;
+    width: 100%;
+    height: 100vh;
+}
+.main-simone{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 90%;
+}
+.simone{
+    display: flex;
+    justify-content: center;
+    font-family: 'PP Acma';
+    font-size: 11vw;
+    font-weight: 300;
+    text-transform: uppercase;
+    line-height: 1.5;
+    letter-spacing: -.04em;
+    color:#a9977d;
+}
+.paragraph-simone{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 1.6vw;
+    width: 28vw;
+    font-family: 'PP Acma';
+    line-height: 1.5;
+    letter-spacing: -.04em;
+    color:#a9977d;
+}
+.studio{
+    font-family: 'PP Acma';
+    font-size: 4.864vw;
+    line-height: 1.5;
+    letter-spacing: -.04em;
+    color:#a9977d;
+}
+
+
+
+
+/* section */
+.first-div{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    max-height: 976px;
+}
+.right-div{
+    max-width: 790px;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+}
+.text-creating{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20px;
+    width: 55%;
+    font-family: 'PP Acma';
+    font-size: 3.2vw;
+    font-weight: 300;
+    line-height: 1;
+    font-feature-settings: "kern";
+    font-kerning: normal;
+    letter-spacing: -.04em;
+    color:#a9977d;
+}
+.cape{
+    padding:15px;
+    font-family: 'PP Acma';
+    font-size: 1.6vw;
+    font-weight: 300;
+    color:#a9977d;
+}
+.dog-img{
+    position: relative;
+    margin-top: -40px;
+   width: 100%; 
+}
+.second-div{
+    position: relative;
+    margin-top: -150px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    
+}
+.mini-div{
+    margin-left: 10%;
+    display: flex;
+    justify-content: space-between;
+  width: 790px;
+}
+
+
+.img1{
+width: 50%;
+max-height: 1100px;
+}
+
+
+.img2{
+    max-width: 340px;
+    width: 45%;
+}
+
+
+.projects{
+    margin-top: 3vw;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    display: flex;
+    flex-direction: column;
+}
+.row1{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+    margin-bottom: 50px;
+}
+.row11{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+    
+}
+.main-card{
+    width: 25%;
+    height: 700px;
+}
+.profile-box{
+    position: relative;
+    overflow: hidden;
+    
+}
+.profile-box-pic{
+    position: relative;
+    z-index: 1;
+    transition: all 0.7s cubic-bezier(0.43, 1.11, 0.73, 1.36);
+    transform: translateY(0%);
+}
+.profile-box-pic1{
+    position: relative;
+    transition: all 0.6s cubic-bezier(0.43, 1.11, 0.73, 1.36);
+    transform: translateY(-100%);
+}
+.profile-box:hover .profile-box-pic{
+    transform: translateY(0%);
+}
+.profile-box:hover .profile-box-pic{
+    transform: translateY(-100%);
+}
+
+.projects-img-size{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+.projects-img-size1{
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+}
+.project-about{
+display: flex;
+position:absolute ;
+margin-top: -475px;
+}
+.project-about1{
+    display: flex;
+position:absolute ;
+margin-top: -320px;
+}
+.number{
+    
+    position: absolute;
+    color: #000;
+    font-family: 'PP Acma';
+    font-size: 3.2vw;
+    font-weight: 300;
+    line-height: 1;
+    font-feature-settings: "kern";
+    font-kerning: normal;
+    letter-spacing: -.04em;
+    color:#a9977d;
+}
+.Nabout{
+    margin-left: 4.5vw;
+    font-family: 'PP Acma';
+    font-size: 3.2vw;
+    font-weight: 300;
+    line-height: 1;
+    font-feature-settings: "kern";
+    font-kerning: normal;
+    letter-spacing: -.04em;
+    color:#a9977d;
+}
+.row{
+    margin-top: 200px;
+}
+
+
+.mail{
+    background: #737057;
+    z-index: -1;
+    position: fixed;
+    bottom:0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 1.3888888889vw;
+    font-family: 'PP Acma';
+    font-size: 4.864vw;
+    line-height: 1.5;
+    letter-spacing: -.04em;
+    color:white;
+}
+.instagram{
+    display: flex;
+    justify-content: space-between;
+    color: #fffdf7;
+}
+.social{
+    z-index: -1;
+    position: fixed;
+    bottom: 20%;
+    left: 1.5%;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 45vw;
+}
+.social1{
+    z-index: -1;
+    position: fixed;
+    bottom: 10%;
+    left: 1.5%;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 45vw;
+}
+.line2{
+    z-index: -1;
+    position: fixed;
+    bottom: 8%;
+    left: 1.5%;
+    right: 0;
+    height: 0.3%;
+    width: 45vw; 
+    background-color: aliceblue;
+}
+.line{
+    z-index: -1;
+    position: fixed;
+    bottom: 18%;
+    left: 1.5%;
+    right: 0;
+    height: 0.3%;
+    width: 45vw; 
+    background-color: aliceblue;
+    transition: all 0.5s;
+}
+.line::after{
+    width: 50%;
+}
+.mail::before {
+    content: "";
+    width: 0%;
+    height: 2px;
+    background-color: white;
+    position: absolute;
+    left: 0;
+    bottom: 45%;
+    transition: all 0.5s;
+}
+.mail:hover::before {
+    width: 60%;
+}
+
+.footer-line{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    width: 30%;
+    z-index: -1;
+    position: fixed;
+    bottom: 8%;
+    right: .5%;
+}
+.credits{
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'PP Acma';
+    align-items: center;
+    color: white;
+    font-size: 1.4vw;
+}
+
+
+/*about  */
+.projects-about{
+    margin-top: 0;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    display: flex;
+    flex-direction: column;
+}
+.main-div-about{
+
+    object-fit: cover;
+    position: relative;
+ 
+}
+.main-image-about{
+
+   object-fit:fill;
+    width: 100vw;
+    height: 100vh;
+}
+.last-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 200px;
+}
+.img-div{
+    max-width:700px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+
+}
+.last-image{
+    width: 100%;
+}
+
+.simoneN:hover{
+    
+     /* Change the background color on hover */
+    color: #808080; /* Change the font color on hover */
+}
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+
+
+    .none{
+        display: block;
+    }
+
+
+.none1{
+    display: none;
+    flex-direction: column;
+}
+.first-div{
+    flex-wrap: wrap;
+    max-height: 100%;
+}
+.right-div{
+    height: 100%;
+    width: 100%;
+}
+.text-creating{
+    text-align: left;
+    padding: 25px;
+    font-size: 9vw;
+    line-height: 1.1666666667;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10vh;
+}
+.second-div{
+    display: flex;
+    flex-direction: column;
+    margin-top: 0%;
+    
+}
+.img1{
+    width: 100%;
+    
+    }
+.cape{
+    width: 100%;
+    font-size: 5.6vw;
+}
+
+.mini-div{
+    width: 100%;
+    flex-direction: column;
+} 
+.img2{
+    padding-top: 20px;
+    max-width: 100%;
+    width: 100%;
+}
+.simonemedia{
+    font-size: 20vw;
+}
+.paragraph-media{
+    width: 100%;
+    font-size: 5vw;
+}
+.row1{
+    row-gap: 21vh;
+    flex-direction: column;
+}
+.main-card{
+width: 100%;
+}
+.row11{
+    flex-direction: column; 
+}
+.project-about{
+    width: 100%;
+
+}
+.project-about1{
+
+}
+.number{
+    display: contents;
+    font-size: 16vw;
+}
+.Nabout{
+    display: contents;
+    font-size: 16vw;
+}
+.credits{
+    display: none;
+
+}
+.social{
+left: 0;
+width: 90%;
+margin-left: auto;
+margin-right: auto;
+}
+.social1{
+    left: 0;
+width: 90%;
+margin-left: auto;
+margin-right: auto;
+}
+.line{
+    left: 0;
+width: 100%;
+}
+.line2{
+    left: 0;
+    width: 100%;
+    }
+    .mail{
+        font-size: 7.6vw;
+    }
+    .mail:hover::before {
+        width: 90%;
+    }
+    .simone-img{
+        display: none;
+    }
+}
