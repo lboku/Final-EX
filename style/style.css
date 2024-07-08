@@ -689,4 +689,7 @@
     .simone-img {
       display: none;
     }
+    .img-div {
+        width: 100%;
+    }
   }
